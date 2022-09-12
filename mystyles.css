@@ -3,8 +3,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+header{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(65, 52, 59, 0.18); /*This is to help with the contrasting colors of the background-image. */
+}
 .curlybrackets{
     color:darkorchid;
+}
+h1, h2, h3{
+    /* color: white; */ /* Because of the different background-image, I'm not going to do an exact color match up. */
+    color:deepskyblue;
 }
 
 .lowerContainer{
@@ -17,5 +31,5 @@ body{
 
 }
 .columnDescription{
-    
+
 }
