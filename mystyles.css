@@ -5,9 +5,9 @@ body{
 }
 
 header{
-    width: 60%;
+    width: 80%;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,6 +19,17 @@ header{
 h1, h2, h3{
     /* color: white; */ /* Because of the different background-image, I'm not going to do an exact color match up. */
     color:deepskyblue;
+}
+h1{
+    font-size:400%;
+    /* I wish also for a greater font-width, but sadly the browser interprets that, and I don't want it breaking the site on whatever browser is used to grade this. */
+}
+h2, h3{
+    font-size:300%;
+}
+
+main{
+    margin-top: 5%;
 }
 
 .lowerContainer{
