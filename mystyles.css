@@ -13,6 +13,7 @@ header{
     color:darkorchid;
 }
 h1, h2, h3{
+    width: fit-content; /* It doesn't break anything. I'm hoping it helps the font-size: #rem to be more responsive. */
     /* color: white; */ /* Because of the different background-image, I'm not going to do an exact color match up. */
     color:deepskyblue;
 }
