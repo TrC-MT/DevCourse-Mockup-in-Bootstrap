@@ -6,11 +6,8 @@ body{
 
 header{
     width: 80%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: rgba(65, 52, 59, 0.18); /*This is to help with the contrasting colors of the background-image. */
 }
 .curlybrackets{
