@@ -28,16 +28,13 @@ h2, h3{
 main{
     margin-top: 5%;
 }
-
-.lowerContainer{
-
+.container{
+    margin-top: 5%;
 }
-.column{
-
+.row, .col{
+    color:deepskyblue;
+    font-size: large;
 }
-.columnTitle{
-
-}
-.columnDescription{
-
+img{
+    width: 50px;
 }
